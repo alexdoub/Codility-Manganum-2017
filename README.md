@@ -4,4 +4,4 @@ This is my code for Codility's Manganum 2017 Challenge, which is a difficult pro
 
 Try it out yourself at https://codility.com/programmers/task/final_turn/
 
-Copy pasting someone elses solution doesn't count, so try to solve it using your own problem solving skills!
+Copy pasting someone elses solution doesn't count, so try to solve it using your own problem solving skills :)
