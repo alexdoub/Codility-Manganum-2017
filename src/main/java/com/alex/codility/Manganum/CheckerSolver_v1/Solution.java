@@ -193,7 +193,6 @@ public class Solution {
         int height = yCopy[yCopy.length-1] + 1 + (2 * topBottomPadding);  //natural height of the board, +1 to offset array index, +1 for an extra row after the end
         leftRightPadding = (height / 2) + 1;
 
-
         int finalWidth = width + (leftRightPadding+ leftRightPadding);    //Add possible height to left & right sides to bound horizontal movement. Initial piece placements must also have height added
 
         if (DEBUG_MODE) {
@@ -203,7 +202,6 @@ public class Solution {
         //////////////////////////////
         /////BEGIN GRAPH CREATION/////
         //////////////////////////////
-
 
         int[][] valueGraph = new int[height][finalWidth];
         char[][] enemyLocationGraph = new char[height][finalWidth];
